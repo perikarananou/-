@@ -12,10 +12,10 @@ void main(){
   do{
     var ap = stdin.readLineSync();
     if ( ap != swsth ){
-      print('exeis allh mia prospathia.');
+      print('Έχεις άλλη μία προσπάθεια.');
       i++;
     }else{
-      print('Swsta!!!');
+      print('Σωστα!!!');
       f != f;
     }
   }
@@ -30,10 +30,10 @@ void main(){
   do{
     var ap = stdin.readLineSync();
     if ( ap != swsth ){
-      print('exeis allh mia prospathia.');
+      print('Έχεις άλλη μία προσπάθεια.');
       i++;
     }else{
-      print('Swsta!!!');
+      print('Σωστά!!!');
       f != f;
     }
   }while(f==true || i==2);
@@ -41,16 +41,16 @@ void main(){
 
   f = false;
   i=0;
-  print('Πόσα bit ισοδθναμούν μεενα byte?');
+  print('Πόσα bit ισοδυναμούν με ενα byte?');
   print('a)4 /n b) 8 /n c) 9 ');
   swsth ="b";
   do{
     var ap = stdin.readLineSync();
     if ( ap != swsth ){
-      print('exeis allh mia prospathia.');
+      print('Έχεις άλλη μία προσπάθεια.');
       i++;
     }else{
-      print('Swsta!!!');
+      print('Σωστά!!!');
       f != f;
     }
   }while(f==true || i==2);
@@ -59,16 +59,17 @@ void main(){
   f = false;
   i=0;
   print('Ποιό από τα παρακάτω είναι συσκευή εισόδου?');
-  print('a)Σρωτής /n b) Ηχείο /n c) Εκτυποτής ');
+  print('a)Σαρωτής /n b) Ηχείο /n c) Εκτυπωτής ');
   swsth ="a";
   do{
     var ap = stdin.readLineSync();
     if ( ap != swsth ){
-      print('exeis allh mia prospathia.');
+      print('Έχεις άλλη μία προσπάθεια.');
       i++;
     }else{
-      print('Swsta!!!');
+      print('Σωστά!!!');
       f != f;
     }
   }while(f==true || i==2);
 }
+
