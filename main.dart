@@ -41,7 +41,7 @@ void main(){
 
   f = false;
   i=0;
-  print('Πόσα bit ισοδθναμούν μεενα byte?');
+  print('Πόσα bit ισοδυναμούν με ενα byte?');
   print('a)4 /n b) 8 /n c) 9 ');
   swsth ="b";
   do{
