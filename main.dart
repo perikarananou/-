@@ -59,7 +59,7 @@ void main(){
   f = false;
   i=0;
   print('Ποιό από τα παρακάτω είναι συσκευή εισόδου?');
-  print('a)Σρωτής /n b) Ηχείο /n c) Εκτυποτής ');
+  print('a)Σαρωτής /n b) Ηχείο /n c) Εκτυπωτής ');
   swsth ="a";
   do{
     var ap = stdin.readLineSync();
